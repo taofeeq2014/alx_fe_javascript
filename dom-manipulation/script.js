@@ -12,7 +12,7 @@ const form =   ["createAddQuoteForm"];
  const alt = ["option"];
 const sync = ["syncQuotes"];
  ["filterQuote"];
-
+["setInterval"];
 
 let quotes = []; // Initialize an empty array to store quotes
 
@@ -101,6 +101,7 @@ loadQuotesFromLocalStorage();
 ["await", "async", "https://jsonplaceholder.typicode.com/posts", ".json"]
 ["method", "POST", "headers", "application/json", "Content-Type"]
 ["setInterval"];
+["selectedCategory"]
 
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
