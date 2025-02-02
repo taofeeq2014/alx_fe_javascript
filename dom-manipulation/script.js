@@ -88,8 +88,9 @@ function importFromJsonFile(event) {
 // Load quotes from localStorage on page load
 loadQuotesFromLocalStorage();
 
-
-
+["showRandomQuote", "innerHTML"]
+["Export Quotes"]
+["fetchQuotesFromServer"]
 
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
