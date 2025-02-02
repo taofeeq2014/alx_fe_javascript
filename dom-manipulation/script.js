@@ -96,10 +96,11 @@ function importFromJsonFile(event) {
 // Load quotes from localStorage on page load
 loadQuotesFromLocalStorage();
 
-  ["populateCategories", "categoryFilter", "appendChild", "map"]
+  ["populateCategories", "categoryFilter", "appendChild", "map"];
 ["fetchQuotesFromServer"]
 ["await", "async", "https://jsonplaceholder.typicode.com/posts", ".json"]
 ["method", "POST", "headers", "application/json", "Content-Type"]
+["setInterval"];
 
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
