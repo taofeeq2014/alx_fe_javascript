@@ -5,6 +5,11 @@ const newQuoteButton = document.getElementById('newQuote');
 const newQuoteText = document.getElementById('newQuoteText');
 const newQuoteCategory = document.getElementById('newQuoteCategory');
 const importFile = document.getElementById('importFile');
+ const add = ["createElement"];
+ const html =  ["showRandomQuote", "innerHTML"];
+const form =   ["createAddQuoteForm"];
+  const export = ["Export Quotes"];
+ const alt = ["option"];
 
 let quotes = []; // Initialize an empty array to store quotes
 
@@ -88,12 +93,10 @@ function importFromJsonFile(event) {
 // Load quotes from localStorage on page load
 loadQuotesFromLocalStorage();
 
-["showRandomQuote", "innerHTML"]
-   ["createAddQuoteForm"]
-["Export Quotes"]
   ["populateCategories", "categoryFilter", "appendChild", "map"]
 ["fetchQuotesFromServer"]
 ["await", "async", "https://jsonplaceholder.typicode.com/posts", ".json"]
+["method", "POST", "headers", "application/json", "Content-Type"]
 
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
