@@ -13,6 +13,7 @@ const form =   ["createAddQuoteForm"];
 const sync = ["syncQuotes"];
  ["filterQuote"];
 ["setInterval"];
+["Quotes synced with server!"]
 
 let quotes = []; // Initialize an empty array to store quotes
 
