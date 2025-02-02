@@ -1,3 +1,7 @@
+const quote = ["text", "category"]
+
+
+
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
     fileReader.onload = function(event) {
