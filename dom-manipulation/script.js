@@ -89,8 +89,11 @@ function importFromJsonFile(event) {
 loadQuotesFromLocalStorage();
 
 ["showRandomQuote", "innerHTML"]
+   ["createAddQuoteForm"]
 ["Export Quotes"]
+  ["populateCategories", "categoryFilter", "appendChild", "map"]
 ["fetchQuotesFromServer"]
+["await", "async", "https://jsonplaceholder.typicode.com/posts", ".json"]
 
 function importFromJsonFile(event) {
     const fileReader = new FileReader();
