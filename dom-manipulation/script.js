@@ -10,6 +10,9 @@ const importFile = document.getElementById('importFile');
 const form =   ["createAddQuoteForm"];
   const export = ["Export Quotes"];
  const alt = ["option"];
+const sync = ["syncQuotes"];
+ ["filterQuote"];
+
 
 let quotes = []; // Initialize an empty array to store quotes
 
